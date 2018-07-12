@@ -1,0 +1,9 @@
+Path-Based Dominant-Set Clustering
+
+Combining path-based similarity measures with dominant-set approach:
+- Clustering -> good at finding clusters of arbitrary shapes, bad with noisy background
+- Dominant-set -> good at dealing with noisy background, bad with not compact clusters
+
+Dominant set clustering
+Data is represented as a undirected positive weighted graph with no self loops G = (V, E, w).
+Edges represent neighborhood relationships and the weights on edges represent the similarity between pairs of linked nodes.
